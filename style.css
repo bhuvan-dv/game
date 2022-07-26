@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.actualContent {
+  background: #c4a6fb;
+}
+.actualContent > article {
+  display: flex;
+  width: 100%;
+}
+.actualContent > article > div {
+  flex-basis: 34%;
+  justify-content: space-between;
+}
+#messageContent {
+  background: #dacaf7;
+}
+#messageContent > article {
+  display: flex;
+  width: 100%;
+}
+#messageContent > article > div {
+  justify-items: baseline;
+  justify-content: space-evenly;
+}
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  padding: 5px;
+  text-decoration: wavy;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#gameOneContent{
+    min-width: fit-content;
+}
